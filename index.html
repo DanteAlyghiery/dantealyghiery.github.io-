@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- ===================================================== FONTS ====================================================== -->
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
+    <!-- ==================================================================== styles ==========================================================================-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="header__wr page__section_1 " id="#header">
+                <div class="header">
+                    
+                    
+                    <div class="header__menu menu ">
+
+                        <div class="left-header " >
+                            <div class="header__logo">
+                                <img class="header__logo" src="images/Layer1000.svg" alt="">
+                            </div>
+                            <div class="menu__icon" onclick="toggleMenu()">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <nav class="menu__body">
+                            <ul class="menu__list">
+                                <li> <a href="#header" class="menu__link" onclick="toggleMenu()" >Головна</a></li>
+                                <li> <a href="#about_us" class="menu__link" onclick="toggleMenu()">Про нас</a></li>
+                                <li> <a href="#sertif" class="menu__link" onclick="toggleMenu()" >Сертифікати</a></li>
+                                <li> <a href="#production" class="menu__link four" onclick="toggleMenu()" >Продукція</a></li>
+                                <li> <a href="#contacts" class="menu__link five" onclick="toggleMenu()">Контакти</a></li>
+                            </ul>
+                            <div class="additional">
+                                <div class="soc__web">
+                                    <a href="#"></a><img src="images/header/SocWeb/facebook-brands.svg" alt="" class="fb-icon"></a>
+                                    <a href="#"><img src="images/header/SocWeb/instagram-brands.svg" alt="" class="inst-icon"></a>
+                                </div>
+                                <div class="lng">
+                                    <div class="eng">Eng</div>
+                                    <div class="urk">Укр</div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                   
+                </div>
+                <div class="header-hero">
+                    <div class="sub-tittle-hero">
+                        YOUR CHOISE IS FRESH
+                    </div>
+                    <div class="menu-tittle">
+                        <span class="menu-tittle-F">F</span>RESH
+                    </div>
+                  
+
+                    <button id="btn" class="btn-hero">
+                        <a id="btn-text" class="button-text-hero">КАТАЛОГ</a>
+
+                    </button>
+                    
+               
+                </div>
+            </div>
+            <!-- ======================================================== BODY ====================================================================== -->
+            <div class="body">
+                <div class="content">
+                   <div class="sertificate-all">
+                    <div class="body__aboutUs ">
+                        <div class="aboutUS-blank ">
+                            <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  -->
+                            <div class="left__wrapper">   
+                                <div class="title-block-dark">
+                                    Про нас
+                                </div>
+                                <div class="aboutUs__text">
+                                    <p>
+                                        <span class="aboutUs-text__Company">Наша компанія Мr Fresh®</span> - це професійний бізнес, 
+                                        здатний запропонувати приємний та економічн вигідниі умови співпраці в сфері ароматизаторів
+                                        повітря, які полягають в авторських розробках упаковки, дизайну та палітрів ароатизаторів
+                                         для приватних осіб та кампаній.
+                                    </p>
+                                    <p> Підприємство обладнане за сучасними вимогами
+                                        виробництва в поєднанні з командою професіоналів
+                                        своєї справи, забезпечує стабільно високу якість 
+                                        виробничого процесу.
+                                    </p> 
+    
+                                    <p>Ми працюємо лише з високоякісними матеріалами сертифікованих 
+                                        компаній-виробників запашок та компонентів для ароматизаторів 
+                                        таких країн як: Україна, Франція, Швеція, Болгарія, Іспанія,
+                                        Туреччина та Китай.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aboutUs-right"></div>
+                    </div>
+
+                    <!-- Sertificate -->
+                        <div class="wrapper-sertyficates page__section_3" >
+                            <section class="body__sertificates .page__section_3" id="#sertif">
+                                
+                                <!-- Slider -->
+                                <div class="wrapper-slider">
+                                    
+                                
+                                    <article id="slider">
+                                        <input checked type="radio" name="slider" id="switch1">
+                                        <input type="radio" name="slider" id="switch2">
+                                        <input type="radio" name="slider" id="switch3">
+                                        <input type="radio" name="slider" id="switch4">
+                                        <input type="radio" name="slider" id="switch5">
+                                        <div id="slides">
+                                            <div id="overflow">
+                                                <div class="image">
+                                                    <article><img class="image-sert" src="../siteTittle/images/body/sertfication/sert/1.jpg"></article>
+                                                    <article><img class="image-sert" src="../siteTittle/images/body/sertfication/sert/2.jpg"></article>
+                                                    <article><img class="image-sert" src="../siteTittle/images/body/sertfication/sert/3.jpg"></article>
+                                                    <article><img class="image-sert" src="../siteTittle/images/body/sertfication/sert/4th.jpg"></article>
+                                                    <article><img class="image-sert" src="../siteTittle/images/body/sertfication/sert/5th.jpg"></article>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="controls">
+                                            <label for="switch1"></label>
+                                            <label for="switch2"></label>
+                                            <label for="switch3"></label>
+                                            <label for="switch4"></label>
+                                            <label for="switch5"></label>
+                                        </div>
+                                        <div id="active">
+                                            <label for="switch1"></label>
+                                            <label for="switch2"></label>
+                                            <label for="switch3"></label>
+                                            <label for="switch4"></label>
+                                            <label for="switch5"></label>
+                                        </div>
+                                    </article>
+                                
+                                </div>
+                            
+                                
+                                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  -->
+                                <div class="left__wrapper">   
+                                    <div class="content_left-wrapper">
+                                        <div class="title-block-dark">
+                                            Сертифікати
+                                        </div>
+                                        <div class="aboutUs__text">
+                                            <p>
+                                                ~ Вам не потрібно хвилюватись про те, чи сумісні і правильно підібрані компоненти та запашки, чи було проведене необхідне тестування, адже цим і вирізняється сертифіко-
+                                                ване виробництво орієнтоване в першу чергу на потреби Замовника.
+                                                
+                                            </p>
+                                            <p> ~ Ми ретельно підходимо до підбору якісних компонентів задля покращення якості, тривалості  дії та естетичної привабливості наших ароматизаторів.
+    
+                                            </p> 
+            
+                                            <p>~ Наші ароматизатори виготовляються в умовах сертифікованої системи менеджменту ISO 9001:2015.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                            </section>
+                        </div>
+                   </div>
+
+                    <!--==================================== partners =================-->
+                    <!--============================== Main production ==================================== -->
+                    <div class="wrapper__production">
+                        <div class="production page__section_4" id="#production">
+                        
+                            <div class="title-block-dark title-production">
+                                Продукція
+                            </div>
+                           
+                            <div class="body__row">
+                                <div class="card card-first">
+                                 
+                                    <img src="images/body/Production/1st.jpg" alt="" class="card-photo">
+                                    
+                           
+                                    <div class="text-card">
+                                       
+                                        <div class="tittle">Ароматизатори в скляних флаконах</div>
+                                        <div class="sub-tittle">Лимон , персик , банан...</div>
+                                        <div class="btn">
+                                            <button class="btn-more">Більше</button>
+                                        </div>
+                                      
+                                    </div>
+                                </div>
+
+                                <!-- 2 -->
+                                <div class="card ml-16 card-second">
+                                   
+                                    <img src="images/body/Production/2.jpg" alt="" class="card-photo">
+                                  
+                                    <div class="text-card">
+                                        
+                                        <div class="tittle">Ароматизатори гелеві</div>
+                                        <div class="sub-tittle">Вишня, Апельсин, Шоколад ...</div>
+                                        <div class="btn">
+                                            <button class="btn-more">Більше</button>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+
+                                <!-- 3 -->
+                                <div class="card card-thirth">
+                                    <img src="images/body/Production/3.jpg" alt="" class="card-photo">
+                                    
+                                    <div class="text-card">
+                                       
+                                        <div class="tittle">Ароматизатори картонні</div>
+                                        <div class="sub-tittle">Слоган про продукт</div>
+                                        <div class="btn">
+                                            <button class="btn-more"><span class="text-more">Більше</span></button>
+                                        </div>
+                                    
+                                      
+                                    </div>
+                                </div>
+
+                                <!-- 4 -->
+
+                                <div class="card ml-16 card-four">
+                                    <img src="images/body/Production/4.jpg" alt="" class="card-photo">
+                                    <div class="text-card">
+                                    
+                                        <div class="tittle">Ароматизатори саше</div>
+                                        <div class="sub-tittle">Слоган про продукт</div>
+                                        <div class="btn">
+                                            <button class="btn-more">Більше</button>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- =========================================================FOOTER======================================================================= -->
+            <div class="footer">
+                <div class="slider-wrapper">
+                    <div class="title-block-white ourPartners">
+                        Наші партнери
+                    </div>
+                    <div class="footter-slider">
+
+                        <div class='marquee' style='overflow:hidden;' >              
+                            
+                            <img src="../siteTittle/images/body/partners/1.png" alt="" class="img_s">
+                            <img src="../siteTittle/images/body/partners/avrora.png" alt="" class="img_s">
+                            <img src="../siteTittle/images/body/partners/epicentr.png" alt="" class="img_s">
+                            <img src="../siteTittle/images/body/partners/premier.png" alt="" class="img_s">
+                            <img src="../siteTittle/images/body/partners/red.png" alt="" class="img_s">
+                            <img src="../siteTittle/images/body/partners/valin.png" alt="" class="img_s">
+                            <img src="../siteTittle/images/body/partners/fuilSt/motto.png" alt="" class="img_s">
+                            <img src="../siteTittle/images/body/partners/fuilSt/patroll.png" alt="" class="img_s">
+                            <img src="../siteTittle/images/body/partners/fuilSt/perron.png" alt="" class="img_s">
+
+                                
+                        </div>
+
+                    </div>
+                </div>
+                <div class="wrapper-footter" id="contacts">
+                    
+                    <div class="footter-content">
+                    
+                        <div class="title-block-white">Будьмо на зв’язку!</div>
+                        <div class="body-content">
+                        <!-- Footter - socialWeb -->
+
+                        
+                            <div class="social">
+
+                                <div class="fb social-links">
+                                    
+                                    <a href="#" class="iccon-link">
+                                        <img src="images/footter/SocWeb/facebook-brands.svg" alt="" class="iccon-pickture">
+                                    </a>
+                                    
+                                    <div class="address">
+                                        <a href="#" class="iccon-link">@MrFreshUa</a>
+                                    </div>
+                                </div>
+
+                                <div class="inst social-links">
+                                
+                                    <a href="#" class="iccon-link">
+                                        <img src="images/footter/SocWeb/instagram-brands.svg" alt="" class="iccon-pickture">
+                                    </a>
+                                    
+                                    <div class="address">   
+                                        <a href="#" class="iccon-link">@MrFreshUa</a>
+                                    </div>
+                                </div>
+
+                                <div class="mail social-links">
+                                
+                                    <a href="#" class="iccon-link">
+                                        <img src="images/footter/SocWeb/envelope-white.svg" alt="" class="iccon-pickture">
+                                    </a>
+                                    
+                                    <div class="address">
+                                        <a href="#" class="iccon-link">mr.fresh.info@gmail.com</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- Footter - phones -->
+                            <div class="phones">
+                                <div class="number">
+                                    <div class="phones-text">
+                                        Головний офіс : 
+                                    </div>
+                                    <div class="phones-number">
+                                        +38068 878 89 88
+                                    </div>
+                                </div>
+                                <div class="number number-adv">
+                                    <div class="phones-text">
+                                        Відділ реклами та <br> маркетингу :
+                                    </div>
+                                    <div class="phones-number">
+                                        +38098 965 40 11
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="map"></div>
+                        <div class="footter-logo">
+                            <img src="images/footter/Logo-white.svg" alt=""  class="footter-logo-picture">
+                        </div>
+                        <div class="footter-text">
+                            <div class="name-company">
+                                Mr.Fresh уі права захищені.
+                            </div>
+                            <div class="name-developer">
+                                Developer by Irina Horoshaeva
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js"></script> 
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQhkiOB3AkjT70Rm7XcJohTCdpQ_ET7GI&callback=initMap&libraries=&v=weekly" async></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+    <!-- Бігуча строка -->
+
+</html>
+
+
+ 

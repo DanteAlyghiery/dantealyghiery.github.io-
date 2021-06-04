@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- ===================================================== FONTS ====================================================== -->
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
+    <!-- ==================================================================== styles ==========================================================================-->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" ></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="header__wr page__section_1 " id="#header">
+                <div class="header">
+                    
+                    
+                    <div class="header__menu menu ">
+
+                        <div class="left-header " >
+                            <div class="header__logo">
+                                <img class="header__logo" src="../images/Layer1000.svg" alt="">
+                            </div>
+                            <div class="menu__icon" onclick="toggleMenu()">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <nav class="menu__body">
+                            <ul class="menu__list">
+                                <li> <a href="#header" class="menu__link" onclick="toggleMenu()" >Головна</a></li>
+                                <li> <a href="#about_us" class="menu__link" onclick="toggleMenu()">Про нас</a></li>
+                                <li> <a href="#sertif" class="menu__link" onclick="toggleMenu()" >Сертифікати</a></li>
+                                <li> <a href="#production" class="menu__link four" onclick="toggleMenu()" >Продукція</a></li>
+                                <li> <a href="#contacts" class="menu__link five" onclick="toggleMenu()">Контакти</a></li>
+                            </ul>
+                            <div class="additional">
+                                <div class="soc__web">
+                                    <a href="https://www.facebook.com/MrFreshUa"><img src="../images/header/SocWeb/facebook-brands.svg" alt="" class="fb-icon"></a>
+                                    <a href="https://www.instagram.com/MrFreshUa/?fbclid=IwAR3WE9XQXl7Zxgyv7Ig2MpvEgDAD8ELzvkNYnsIDAFnjCSTOZ9mZBqwuBq4"><img src="../images/header/SocWeb/instagram-brands.svg" alt="" class="inst-icon"></a>
+                                </div>
+                                <div class="lng">
+                                    <div class="eng">Eng</div>
+                                    <div class="urk">Укр</div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                   
+                </div>
+                <div class="header-hero">
+                    <div class="sub-tittle-hero">
+                        YOUR CHOIСE IS 
+                    </div>
+                    <div class="menu-tittle">
+                        <span class="menu-tittle-F">F</span>RESH
+                    </div>
+                </div>
+            </div>
+            <!-- sub menu -->
+            <div id="navbar" class="sub-menu-container">
+                <nav  class="menu-sub">
+                    <ul class="menu-sub-list">
+                        <li>
+                            <a href="#glassMain" class="menu-sub-link glassMain">
+                                <button id="glassMain" class="first-line-link ">Ароматизатори в скляних флаконих</button>
+                            </a>
+                                <ul class="sub-sub-list first-line-list">
+                                    <li>
+                                        <a href="#glassEveryDay" class="menu-sub-sub-link">
+                                            <button class="second-line-link">Кожен день</button>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#glassPrem" class="menu-sub-sub-link">
+                                            <button class="second-line-link">Преміум</button>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#glassOnePlusOne" class="menu-sub-sub-link">
+                                            <button class="second-line-link">1+1</button>
+                                        </a>
+                                    </li>
+                                </ul>
+                        </li>
+                        <!-- ================= Картонні =====================-->
+                        <li>
+                            <a href="#paper" class="menu-sub-link">
+                                <button id="paperMain" class="first-line-link first-line-paper">Ароматизатори картонні</button>
+                            </a>
+                                <ul class="sub-sub-list second-line-list">
+                                    <li>
+                                        <a href="#paperSmile" class="menu-sub-sub-link">
+                                            <button class="second-line-link">Смайл</button>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#paperBills" class="menu-sub-sub-link">
+                                            <button class="second-line-link">Купюри</button>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#paperfirth" class="menu-sub-sub-link">
+                                            <button class="second-line-link">Перо</button>
+                                        </a>
+                                        <ul class="sub-sub-sub-list">
+                                            <li>
+                                                <a href="#paperGirls" class="sub-sub-sub-link">
+                                                    <button class="third-line-link">Дівчата</button>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="sub-sub-sub-link">
+                                                    <button class="third-line-link">Авто</button>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="paperTotems" class="sub-sub-sub-link">
+                                                    <button class="third-line-link">Тотем</button>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                        </li>
+                        <!-- ================= Гелеві =====================-->
+                        <li>
+                            <a id="gellMain" href="gellMain" class="menu-sub-link">
+                                <button  class="first-line-link">Ароматизатори гелеві</button>
+                            </a>
+                                <ul class="sub-sub-list third-line-list">
+                                    <li>
+                                        <a href="#lotos" class="menu-sub-sub-link">
+                                            <button class="second-line-link">Лотос</button>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#gellDrib" class="menu-sub-sub-link">
+                                            <button class="second-line-link">Капля</button>
+                                        </a>
+                                        <ul class="sub-sub-sub-list">
+                                            <li>
+                                                <a href="#gellPatriotic" class="menu-sub-sub-sub-link">
+                                                    <button class="third-line-link">Патріотика</button>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#gellCars" class="menu-sub-sub-sub-link">
+                                                    <button class="third-line-link">Авто</button>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#gellGirls" class="menu-sub-sub-sub-link">
+                                                    <button class="third-line-link">Дівчата</button>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                        </li>
+                        <!-- ================= Саше =====================-->
+                        <li>
+                            <a id="gellsasshe" href="sashe" class="menu-sub-link">
+                                <button  class="first-line-link">Ароматизатори саше</button>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        <!--========================================= BODY ===================-->
+       <div class="body">
+            <div class="container">
+                <!-- 1  --> 
+                <div id="glassMain" class="container__glassMain mainGlasOn">
+                    <div class="row mt-5">
+                        <h2 class="mt-5 text-center ">Ароматизатори в скляних флаконах</h2>
+                        <h3 id="glassEveryDay" class="mt-5 text-center">Кожен день</h3>
+                    </div>
+                    <div class="row">
+    
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                            <!-- Content -->
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_0999.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Бузок</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1000.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Кола</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1001.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Чорний лід</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1002.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Кава та шоколад</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                        </div>
+                    </div>
+    
+                    <!-- 2th row Every day -->
+    
+                    <div class="row">
+    
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                            <!-- Content -->
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1003.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Нова машина</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1005.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Кориця та яблуко</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1006.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Груша та банан</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1007.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Полуниця</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                        </div>
+                    </div>
+    
+                    <!-- 3th row Every day -->
+    
+                    <div class="row" > 
+    
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                            <!-- Content -->
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg bg-body rounded">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1008.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Океан</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg  bg-body rounded">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1009.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Тутті - фрутті</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg  bg-body rounded">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1010.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Конвалія</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg  bg-body rounded">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1011.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Вишня та шоколад</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                        </div>
+                    </div>
+    
+                    <!-- 4th row Every day -->
+    
+                    <div class="row">
+    
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                            <!-- Content -->
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1012.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Апельсин</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1013.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Анти тютюн</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1014.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Лимон</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1015.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Тропічний бриз</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                        </div>
+                    </div>
+    
+                    <!-- 5th row Every day -->
+    
+                    <div class="row">
+    
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                            <!-- Content -->
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1016.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Ваніль</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1017.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Яблуко</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1018.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Кокос</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1019.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Персик</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                        </div>
+                    </div>
+    
+                    <!-- 6th row Every day -->
+    
+                    <div class="row">
+    
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                            <!-- Content -->
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1020.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Баблгам</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1021.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Лісові ягоди</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg ">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1022.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Диня</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg mt-5 shadow-lg">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/everyDay/DSC_1023.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Вишня</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                        </div>
+                        <!-- =================================  Glass PREMIUM ======================================= -->
+                        <div id="glassPrem" class="row mt-5">
+                            <h2  class="mt-5 text-center">Ароматизатори в скляних флаконах</h2>
+                            <h3 class="mt-5 text-center">Преміум</h3>
+                        </div>
+                        <div class="row">
+        
+                            <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                                <!-- Content -->
+                            </div>
+                            <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                                <div class="card rounded-lg mt-5">
+                                    <img class="card-img-top" loading=lazy src="../production/img/all/forOrder/prem/DSC_0807.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-black-50">White</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                                <div class="card rounded-lg mt-5">
+                                    <img class="card-img-top" loading=lazy src="../production/img/all/forOrder/prem/DSC_0808.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-black-50">Blue jeans</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                                <div class="card rounded-lg mt-5">
+                                    <img class="card-img-top" loading=lazy src="../production/img/all/forOrder/prem/DSC_0809.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-black-50">Black</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                                <div class="card rounded-lg mt-5">
+                                    <img class="card-img-top" loading=lazy src="../production/img/all/forOrder/prem/DSC_0810.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-black-50">Black</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                            </div>
+                        </div>
+        
+        
+                        <div class="row">
+                            <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                                <!-- Content -->
+                            </div>
+                            <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                                <div class="mt-5 card rounded-lg">
+                                    <img class="card-img-top " src="../production/img/all/forOrder/prem/DSC_0811.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-black-50">White</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                                <div class="mt-5 card rounded-lg">
+                                    <img class="card-img-top " src="../production/img/all/forOrder/prem/DSC_0812.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-black-50">Blue jeans</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                                <div class="mt-5 card rounded-lg">
+                                    <img class="card-img-top " src="../production/img/all/forOrder/prem/DSC_0839.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-black-50">Black</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                                <div class="mt-5 card rounded-lg">
+                                    <img class="card-img-top " src="../production/img/all/forOrder/prem/DSC_0840.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-black-50">Black</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+
+
+            <!-- ============================================ 1 + 1 =================================================== -->
+
+            <div class="container">
+                <div  id="glassOnePlusOne" class="row mt-5">
+                    <h2 class="mt-5 text-center">Ароматизатори в скляних флаконах</h2>
+                    <h3 class="mt-2 text-center">1+1</h3>
+                </div>
+                <div class="row mt-5">
+
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                        <!-- Content -->
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0842.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">White</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0843.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0844.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0845.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                        <!-- Content -->
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0846.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">White</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0847.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0848.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0849.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                    </div>
+                </div>
+
+
+                <div class="row mt-5">
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                        <!-- Content -->
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0850.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">White</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0851.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0852.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img//all/OnePlusOne/DSC_0853.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                    </div>
+                </div>  
+
+                <div class="row mt-5">
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                        <!-- Content -->
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0854.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">White</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0855.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0856.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img//all/OnePlusOne/DSC_0857.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                    </div>
+                </div>  
+
+                <div class="row mt-5">
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                        <!-- Content -->
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0858.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">White</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0859.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0860.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img//all/OnePlusOne/DSC_0861.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                    </div>
+                </div>  
+
+                <div class="row mt-5">
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                        <!-- Content -->
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0862.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">White</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0863.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/OnePlusOne/DSC_0864.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                    </div>
+                </div>  
+            </div>                
+                
+                
+                
+            <!--================================================== Paper=================================================== -->
+
+            <!-- smile -->
+
+            <div id="paper" class="row mt-5">
+                <h2 class="mt-5 text-center">Ароматизатори картонні</h2>
+                <h3 id="paperSmile" class="mt-5 text-center">Смайли</h3>
+            </div>
+            <div class="row">
+
+                <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                    <!-- Content -->
+                </div>
+                <div class="col-xl-3 col-md-2 col-sm-6 col-xs-10">
+                    <div class="card rounded-lg mt-5 shadow-lg ">
+                        <img class="card-img-top" loading=lazy src="../production/img/all/paper/smiles/DSC_0960.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title text-black-50">Тутті - фрутті</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-2 col-sm-6 col-xs-10">
+                    <div class="card rounded-lg mt-5 shadow-lg ">
+                        <img class="card-img-top" loading=lazy src="../production/img/all/paper/smiles/DSC_0970.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title text-black-50">Яблуко</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-2 col-sm-6 col-xs-10">
+                    <div class="card rounded-lg mt-5 shadow-lg ">
+                        <img class="card-img-top" loading=lazy src="../production/img/all/paper/smiles/DSC_0973.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title text-black-50">Диня</h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                </div>
+            </div>
+
+            <!-- ============================== =============== Bills ======================================= -->
+
+            <div id="paperBills" class="row mt-5">
+                <h2 class="mt-5 text-center">Ароматизатори картонні</h2>
+                <h3 class="mt-5 text-center">Купюри</h3>
+            </div>
+            <div class="row">
+
+                <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                    <!-- Content -->
+                </div>
+                <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                    <div class="card rounded-lg mt-5 shadow-lg ">
+                        <img class="card-img-top" loading=lazy src="../production/img/all/paper/bills/DSC_0974.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title text-black-50">Ваныль</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                    <div class="card rounded-lg mt-5 shadow-lg ">
+                        <img class="card-img-top" loading=lazy src="../production/img/all/paper/bills/DSC_0985.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title text-black-50">Нова машина</h4>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col-xl-2 col-md-2 col-sm-0 col-xs-1">
+                </div>
+            </div>
+
+            <!--================================================ Каплі ====================================================== -->
+            <div id="gellMain" class=" container">
+                <div class="row mt-5">
+                    <h2 class="mt-5 text-center">Гелеві</h2>
+                    <h3 class="mt-2 text-center">Капля</h3>
+                    <h3 id="gellCars" class="mt-2 text-center">Авто</h3>
+                </div>
+                <div class="row mt-5">
+
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                        <!-- Content -->
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg shadow-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/Gell/car/DSC_0870.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">White</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg shadow-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/Gell/car/DSC_0871.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg shadow-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/Gell/car/DSC_0872.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg shadow-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/Gell/car/DSC_0873.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                    </div>
+                </div>
+
+
+                <div class="row mt-5">
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                        <!-- Content -->
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg shadow-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/Gell/car/DSC_0874.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">White</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg shadow-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/Gell/car/DSC_0875.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg shadow-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/Gell/car/DSC_0876.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg shadow-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/Gell/car/DSC_0878.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                    </div>
+                </div>  
+
+
+                <div class="row mt-5">
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                        <!-- Content -->
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg shadow-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/Gell/car/DSC_0879.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">White</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg shadow-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/Gell/car/DSC_0880.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg shadow-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/Gell/car/DSC_0881.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                        <div class="card rounded-lg shadow-lg">
+                            <img class="card-img-top" loading=lazy src="../production/img/all/Gell/car/DSC_0882.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-black-50">Black</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                    </div>
+                    
+                    <div class="row mt-5">
+                        <h2 class="mt-5 text-center">Гелеві</h2>
+                        <h3 class="mt-2 text-center">Капля</h3>
+                        <h3 id="gellPatriotic" class="mt-2 text-center">Патріотика</h3>
+                    </div>
+                    <div id="gellPatriotic" class="row mt-5">
+    
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                            <!-- Content -->
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg shadow-lg">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/Gell/patriotick/DSC_0865.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Бабл гам </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg shadow-lg">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/Gell/patriotick/DSC_0866.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Персик</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg shadow-lg">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/Gell/patriotick/DSC_0867.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Диня </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-6 col-xs-10">
+                            <div class="card rounded-lg shadow-lg">
+                                <img class="card-img-top" loading=lazy src="../production/img/all/Gell/patriotick/DSC_0868.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title text-black-50">Океан</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-2 col-sm-0 col-xs-0">
+                        </div>
+                    </div>
+    
+                </div>  
+            </div>
+        </div>
