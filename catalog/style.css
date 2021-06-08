@@ -55,7 +55,7 @@ body {
     display: block; 
     width: auto;
     height: 100vh;
-    background: url("../images/header/bg.png") no-repeat;
+    background: url("images/header/bg.png") no-repeat;
     background-size: cover;
 }
 .header {
@@ -219,9 +219,6 @@ li {
     font-size: 50px;
 }
 /* ================================menu sub */
-.sub-menu-container {
-
-}
 ul {
     margin: 0;
 }
@@ -266,13 +263,27 @@ button:hover {
 }
 .sub-menu-container {
     display: flex;
-    /* position: fixed; */
     flex-direction: row;
     justify-content: center;
     background-color: rgba(109, 132, 250, 0.918);
     align-items: center;
     z-index: 1;
 }
+
+#navbar {
+    overflow: hidden;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .body {
+    padding-top: 60px;
+}
+
 .menu-sub-list {
     display: flex;
     flex-direction: row;

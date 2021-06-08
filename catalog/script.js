@@ -69,24 +69,20 @@ $(function() {
   });
 });
 
-let btn = document.getElementById('btn');
-let btnText = document.getElementById('btnText');
+// let btn = document.getElementById('btn');
+// let btnText = document.getElementById('btnText');
 
-btn.onclick = function() {
-    btnText.innerHTML = "Дякуємо!";
-    btn.classList.add("active");
-}
+// btn.onclick = function() {
+//     btnText.innerHTML = "Дякуємо!";
+//     btn.classList.add("active");
+// }
 
 
-const nav = document.querySelector('#navbar');
-const topOfNav = nav.offsetTop;
-
-function fixNav() {
-    if(window.scroll >= topOfNav) {
-        document.sub-menu-container.classList.add('fixed-nav');
-    } else {
-        document.sub-menu-container.classList.remove('fixed-nav');
+$( window ).scroll(function() {
+    if ($(window).scrollTop() >= $("#navbar").offset().top) {
+        $("#navbar").addClass("sticky");
+    } 
+    if ($(window).scrollTop() < $("#navbar").offset().top) {
+        $("#navbar").removeClass("sticky");
     }
-
-}
-window.addEventListener('scroll' , fixNav);
+});
