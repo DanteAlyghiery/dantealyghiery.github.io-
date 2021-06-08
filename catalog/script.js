@@ -77,12 +77,16 @@ $(function() {
 //     btn.classList.add("active");
 // }
 
+let navbar_position = $("#navbar").offset().top;
 
 $( window ).scroll(function() {
-    if ($(window).scrollTop() >= $("#navbar").offset().top) {
+    if ($(window).scrollTop() >= navbar_position) {
         $("#navbar").addClass("sticky");
     } 
-    if ($(window).scrollTop() < $("#navbar").offset().top) {
+    else if ($(window).scrollTop() < navbar_position) {
+        $("#navbar").removeClass("sticky");
+    }
+    else {
         $("#navbar").removeClass("sticky");
     }
 });
