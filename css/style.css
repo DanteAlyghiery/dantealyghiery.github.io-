@@ -678,14 +678,7 @@ label, a{ /*при наведении на стрелки или переклю�
     align-self: center;
 }
 
-.map-content {
-   width: 1920px;
-   height: 200px;
-   background: gray;
-}
-.footter-text {
 
-}
 .footter-text {
     display: flex;
     flex-direction: column;

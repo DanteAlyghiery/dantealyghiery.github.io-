@@ -357,10 +357,6 @@ button:hover {
     padding: 0px 0px 0px 10px;
     color: gray;
 }
-.icon-search {
-    height: 1.5em;
-    width: 1.5em;
-}
 
 
 .body {
@@ -386,6 +382,123 @@ h4 {
     font-size: 12px;
 }
 
+.footter-content {
+    margin-top: 5%;
+    background: #6B45FF;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footter-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+ /* footter body */
+
+.footter-tittle {
+    padding-top:5%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+}
+.body-content {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 92%;
+    justify-content: space-around;
+    padding-top:5%;
+}
+ 
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.social-links {
+    display: flex;
+    flex-direction: row;
+}
+.address {
+    display: flex;
+}
+
+
+.iccon-pickture {
+    margin-right: 30px;
+    display: flex;
+    width: 25px;
+    height: 25px;
+}
+
+.phones {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.number {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.number-adv {
+    padding-top: 65px;
+}
+.a:hover, a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.border {
+    margin: -10px 25px 0px 0px;
+    width: 1px;
+    height: 220px;
+    color: white;
+    border: 1px solid white;
+}
+/* ======== foottter menu ============ */
+.footter-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60px;
+    line-height: 60px;
+}
+.footter-logo {
+    padding-top:5%;
+    width: 10%;
+    height: 10%;
+    align-self: center;
+}
+.footter-logo-picture {
+    display: flex;
+    color: white;
+
+
+    align-self: center;
+}
+
+
+.footter-text {
+    padding-top:5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    line-height: 25px;
+}
+.name-developer {
+    margin-bottom: 10px;
+    font-weight: 200;
+}
 
 /* adaptive */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1439px) {
