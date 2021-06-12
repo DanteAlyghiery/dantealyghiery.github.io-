@@ -30,6 +30,9 @@ body {
 .menu__icon {
     display: none;
 }
+.sub-menu-icon {
+    display: none;
+}
 /* mobile phones */
 
 @keyframes movedown{
@@ -75,9 +78,7 @@ body {
     opacity: 1;
 
 }
-.header:hover {
 
-}
 .header__menu {
     display: flex;
     flex-direction: row;
@@ -545,6 +546,8 @@ h4 {
 }
 /*  Адаптив для планшетів */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+   
+    
     a {
         text-decoration: none;
     }
@@ -770,9 +773,46 @@ h4 {
 
 /* adaptive mobiles */
 @media only screen and (max-width: 767px) {
+    /* саб меню бургер */
+    .sub-menu-container {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+    
+    .sub-menu-icon {
+        display: block;
+    }
 
+    .menu-sub {
+        z-index: 5;
+        display: block;
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        cursor: pointer;
+    }
+    
+    .sub-menu-icon span,
+    .sub-menu-icon:before,
+    .sub-menu-icon:after {
 
-
+        margin: 20px 0px;
+        left: 0;
+        position: absolute;
+        height: 3px;
+        width: 30px;
+        transition: all 0.3s ease 0s;
+        background-color: rgb(193, 87, 87);
+    }
+    .sub-menu-icon:before {
+        content: "";
+        transform: translateY(-15px);
+    }
+    .sub-menu-icon:after {
+        content: "";
+        transform: translateY(15px);
+    }
     /* ===========================menu burger =====================*/
     h4 {
         font-size: 16px;
@@ -862,7 +902,7 @@ h4 {
         position: fixed;
         top: 0;
         left: 0;
-        background: url('../images/header/Bg-open-Phones.png');
+        background: url('../catalog/images/header/Bg-open-Phones.png');
         background-size: contain;
         width: 100%;
         height: 100%;
@@ -937,12 +977,12 @@ h4 {
         
     }
     .fb-icon {
-        width: 35%;
-        height: 35%;
+        width: 40%;
+        height: 40%;
     }
     .inst-icon {
-        height: 30%;
-        width: 30%;
+        height: 40%;
+        width: 40%;
     }
 
     .lng__Ukr {
@@ -978,7 +1018,8 @@ h4 {
 
     }
     button:hover {
-        display: none;
+        border: none;
+        background-color: rgba(115, 138, 253, 0.918);
     }
     .menu-sub-list {
         flex-direction: column;
