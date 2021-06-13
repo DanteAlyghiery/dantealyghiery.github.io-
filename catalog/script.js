@@ -51,9 +51,9 @@ if (isMobile.any()) {
 
 function toggleSubMenu() {
     const subMenuIcon = document.querySelector('.sub-menu-icon');
-    const subMenuContainer = document.querySelector('.sub-menu-icon');
+    const subMenuContainer = document.querySelector('.menu-sub');
     subMenuIcon.classList.toggle('_active-sub-menu');
-    subMenuContainer.classList.toggle('_active-sub-menu-container');
+    subMenuContainer.classList.toggle('_active-sub-menu-list');
 }
 
 function toggleMenu() {   // Подія клік на іконку, звернення до іконки добавка класу _active

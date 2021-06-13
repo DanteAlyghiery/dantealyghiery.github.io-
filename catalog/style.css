@@ -782,11 +782,19 @@ h4 {
     
     .sub-menu-icon {
         display: block;
+        cursor: pointer;
+        padding-left: 10px;
+        align-items: center;
+        
     }
-
-    .menu-sub {
-        z-index: 5;
+    .menu-sub._active-sub-menu-list {
         display: block;
+        transition: all 0.3s ease 0s;
+    }
+    .menu-sub {
+        position: fixed;
+        z-index: 5;
+        display: none;
         position: relative;
         width: fit-content;
         height: fit-content;
@@ -802,8 +810,9 @@ h4 {
         position: absolute;
         height: 3px;
         width: 30px;
+        border-radius: 2px;
         transition: all 0.3s ease 0s;
-        background-color: rgb(193, 87, 87);
+        background-color: rgb(117, 115, 115);
     }
     .sub-menu-icon:before {
         content: "";
@@ -813,6 +822,8 @@ h4 {
         content: "";
         transform: translateY(15px);
     }
+    /* Анімація значка */
+    
     /* ===========================menu burger =====================*/
     h4 {
         font-size: 16px;
