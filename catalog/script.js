@@ -49,7 +49,12 @@ if (isMobile.any()) {
     document.body.classList.add('_pc');
 }
 
-
+function toggleSubMenu() {
+    const subMenuIcon = document.querySelector('.sub-menu-icon');
+    const subMenuContainer = document.querySelector('.sub-menu-icon');
+    subMenuIcon.classList.toggle('_active-sub-menu');
+    subMenuContainer.classList.toggle('_active-sub-menu-container');
+}
 
 function toggleMenu() {   // Подія клік на іконку, звернення до іконки добавка класу _active
     const iconMenu = document.querySelector('.menu__icon'); // Звернення до іконки бургер
