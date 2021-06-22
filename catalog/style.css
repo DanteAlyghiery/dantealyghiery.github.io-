@@ -4,8 +4,33 @@
 html {
     scroll-behavior: smooth;
 }
-/* sticky */
-
+/* up */
+#toTop {
+    text-align: center;
+    align-items: center;
+    line-height: 35px;
+    width:150px;
+    height: 50px;
+    border-radius:25px;
+    border:1px solid #ccc;
+    background:#1c7fc6;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:10px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+    display:none;
+    color:#333;
+    font-family:verdana;
+    font-size:11px;
+    color: white;
+    font-weight: bold;
+}
+#toTop:hover {
+    background-color: #ccc;
+    color: #000;
+}
 /* header */
 p {
     margin: 0;
@@ -808,7 +833,7 @@ h4 {
         margin: 20px 0px;
         left: 0;
         position: absolute;
-        height: 3px;
+        height: 1.5px;
         width: 30px;
         border-radius: 2px;
         transition: all 0.3s ease 0s;
@@ -823,7 +848,18 @@ h4 {
         transform: translateY(15px);
     }
     /* Анімація значка */
-    
+    .sub-menu-icon._active-sub-menu span {
+        display: none;
+    }
+    .sub-menu-icon._active-sub-menu::before {
+        transform: rotate(-45deg);
+    }
+    .sub-menu-icon._active-sub-menu::after {
+        transform: rotate(45deg);
+    }
+
+
+
     /* ===========================menu burger =====================*/
     h4 {
         font-size: 16px;
