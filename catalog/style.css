@@ -59,7 +59,9 @@ body {
     display: none;
 }
 /* mobile phones */
-
+.sub-menu-icon span {
+    margin: 10em;
+}
 @keyframes movedown{
     0%{
         transform: translateY(-100px);
