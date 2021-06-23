@@ -67,117 +67,59 @@
                 </div>
             </div>
             <!-- sub menu -->
-            <div id="navbar" class="sub-menu-container">
-                <div class="sub-menu-icon" onclick="toggleSubMenu()">
-                    <span></span>
-                </div>
-                <nav  class="menu-sub">
-                    <ul class="menu-sub-list">
-                        <li>
-                            <a onclick="toggleSubMenu()" href="#glassMain" class="menu-sub-link glassMain">
-                                <button  id="glassMain" class="first-line-link ">Ароматизатори в скляних флаконих</button>
-                            </a>
-                                <ul class="sub-sub-list first-line-list">
-                                    <li>
-                                        <a href="#glassEveryDay" class="menu-sub-sub-link">
-                                            <button class="second-line-link">Кожен день</button>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#glassPrem" class="menu-sub-sub-link">
-                                            <button class="second-line-link">Преміум</button>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#glassOnePlusOne" class="menu-sub-sub-link">
-                                            <button class="second-line-link">1+1</button>
-                                        </a>
-                                    </li>
+            <nav class="navbar d-flex  flex-column flex-md-row  navbar-expand-xl navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse show justify-content-around  w-100" id="navbarWithDropdown">
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item dropdown pr-5">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ароматизатори в скляних флаконах
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#glassEveryDay">Кожен день</a></li>
+                                <li><a class="dropdown-item" href="#glassPrem">Преміум</a></li>
+                                <li><a class="dropdown-item" href="#glassOnePlusOne">1+1</a></li>
                                 </ul>
-                        </li>
-                        <!-- ================= Картонні =====================-->
-                        <li>
-                            <a onclick="toggleSubMenu()" href="#paper" class="menu-sub-link">
-                                <button  id="paperMain" class="first-line-link first-line-paper">Ароматизатори картонні</button>
-                            </a>
-                                <ul class="sub-sub-list second-line-list">
-                                    <li>
-                                        <a href="#paperSmile" class="menu-sub-sub-link">
-                                            <button class="second-line-link">Смайл</button>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#paperBills" class="menu-sub-sub-link">
-                                            <button class="second-line-link">Купюри</button>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#paperfirth" class="menu-sub-sub-link">
-                                            <button class="second-line-link">Перо</button>
-                                        </a>
-                                        <ul class="sub-sub-sub-list">
-                                            <li>
-                                                <a href="#paperGirls" class="sub-sub-sub-link">
-                                                    <button class="third-line-link">Дівчата</button>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="" class="sub-sub-sub-link">
-                                                    <button class="third-line-link">Авто</button>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="paperTotems" class="sub-sub-sub-link">
-                                                    <button class="third-line-link">Тотем</button>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                            </li>
+                            
+                            <li class="nav-item dropdown pr-5">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ароматизатори картонні
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#paperSmile">Смайли</a></li>
+                                <li><a class="dropdown-item" href="#paperBills">Купюри</a></li>
                                 </ul>
-                        </li>
-                        <!-- ================= Гелеві =====================-->
-                        <li>
-                            <a onclick="toggleSubMenu()" id="gellMain" href="#gellMain" class="menu-sub-link">
-                                <button   class="first-line-link">Ароматизатори гелеві</button>
-                            </a>
-                                <ul class="sub-sub-list third-line-list">
-                                    <li>
-                                        <a href="#lotos" class="menu-sub-sub-link">
-                                            <button class="second-line-link">Лотос</button>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#gellDrib" class="menu-sub-sub-link">
-                                            <button class="second-line-link">Капля</button>
-                                        </a>
-                                        <ul class="sub-sub-sub-list">
-                                            <li>
-                                                <a href="#gellPatriotic" class="menu-sub-sub-sub-link">
-                                                    <button class="third-line-link">Патріотика</button>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#gellCars" class="menu-sub-sub-sub-link">
-                                                    <button class="third-line-link">Авто</button>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#gellGirls" class="menu-sub-sub-sub-link">
-                                                    <button class="third-line-link">Дівчата</button>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                            </li>
+
+                            <li class="nav-item dropdown pr-5">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ароматизатори гелеві
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#gellMain">Ароматизатори каплі</a></li>
+
                                 </ul>
-                        </li>
-                        <!-- ================= Саше =====================-->
-                        <li>
-                            <a onclick="toggleSubMenu()" id="gellsasshe" href="#sashe" class="menu-sub-link">
-                                <button   class="first-line-link">Ароматизатори саше</button>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ароматизатори саше
+                                </a>
+                                <ul class="dro-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+              </nav>
+                      
+
             </div>
         <!--========================================= BODY ===================-->
        <div class="body">
@@ -548,7 +490,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0842.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">White</h4>
+                                <h4 class="card-title text-black-50">Груша + ваніль</h4>
                             </div>
                         </div>
                     </div>
@@ -556,7 +498,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0843.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                                <h4 class="card-title text-black-50">Вишня та шоколад</h4>
                             </div>
                         </div>
                     </div>
@@ -564,7 +506,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0844.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Black</h4>
+                                <h4 class="card-title text-black-50">Океан</h4>
                             </div>
                         </div>
                     </div>
@@ -572,7 +514,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0845.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Black</h4>
+                                <h4 class="card-title text-black-50">Конвалія</h4>
                             </div>
                         </div>
                     </div>
@@ -589,7 +531,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0846.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">White</h4>
+                                <h4 class="card-title text-black-50">Тропічний бриз</h4>
                             </div>
                         </div>
                     </div>
@@ -597,7 +539,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0847.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                                <h4 class="card-title text-black-50">Ваніль</h4>
                             </div>
                         </div>
                     </div>
@@ -605,7 +547,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0848.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Black</h4>
+                                <h4 class="card-title text-black-50">Нова машина</h4>
                             </div>
                         </div>
                     </div>
@@ -613,7 +555,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0849.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Black</h4>
+                                <h4 class="card-title text-black-50">Апельсин</h4>
                             </div>
                         </div>
                     </div>
@@ -630,7 +572,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0850.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">White</h4>
+                                <h4 class="card-title text-black-50">Диня</h4>
                             </div>
                         </div>
                     </div>
@@ -638,7 +580,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0851.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                                <h4 class="card-title text-black-50">Антитютюн</h4>
                             </div>
                         </div>
                     </div>
@@ -646,7 +588,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0852.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Black</h4>
+                                <h4 class="card-title text-black-50">Вишня</h4>
                             </div>
                         </div>
                     </div>
@@ -654,7 +596,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img//all/OnePlusOne/DSC_0853.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Black</h4>
+                                <h4 class="card-title text-black-50">Бабл - гам</h4>
                             </div>
                         </div>
                     </div>
@@ -670,7 +612,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0854.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">White</h4>
+                                <h4 class="card-title text-black-50">Лимон</h4>
                             </div>
                         </div>
                     </div>
@@ -678,7 +620,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0855.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                                <h4 class="card-title text-black-50">Полуниця</h4>
                             </div>
                         </div>
                     </div>
@@ -686,7 +628,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0856.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Black</h4>
+                                <h4 class="card-title text-black-50">Лісова ягода</h4>
                             </div>
                         </div>
                     </div>
@@ -694,7 +636,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img//all/OnePlusOne/DSC_0857.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Black</h4>
+                                <h4 class="card-title text-black-50">Яблуко</h4>
                             </div>
                         </div>
                     </div>
@@ -710,7 +652,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0858.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">White</h4>
+                                <h4 class="card-title text-black-50">Бузок</h4>
                             </div>
                         </div>
                     </div>
@@ -718,7 +660,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0859.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                                <h4 class="card-title text-black-50">Кокос</h4>
                             </div>
                         </div>
                     </div>
@@ -726,7 +668,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0860.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Black</h4>
+                                <h4 class="card-title text-black-50">Яблуко кориця</h4>
                             </div>
                         </div>
                     </div>
@@ -734,7 +676,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img//all/OnePlusOne/DSC_0861.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Black</h4>
+                                <h4 class="card-title text-black-50">Кава</h4>
                             </div>
                         </div>
                     </div>
@@ -750,7 +692,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0862.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">White</h4>
+                                <h4 class="card-title text-black-50">Black ice</h4>
                             </div>
                         </div>
                     </div>
@@ -758,7 +700,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0863.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Blue jeans</h4>
+                                <h4 class="card-title text-black-50">Персик</h4>
                             </div>
                         </div>
                     </div>
@@ -766,7 +708,7 @@
                         <div class="card rounded-lg">
                             <img class="card-img-top" loading=lazy src="../img/all/OnePlusOne/DSC_0864.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title text-black-50">Black</h4>
+                                <h4 class="card-title text-black-50">Туті - фрутті</h4>
                             </div>
                         </div>
                     </div>
@@ -1123,5 +1065,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -82,20 +82,6 @@ $(function() {
 //     btn.classList.add("active");
 // }
 
-let navbar_position = $("#navbar").offset().top;
-
-$( window ).scroll(function() {
-    if ($(window).scrollTop() >= navbar_position) {
-        $("#navbar").addClass("sticky");
-    } 
-    else if ($(window).scrollTop() < navbar_position) {
-        $("#navbar").removeClass("sticky");
-    }
-    else {
-        $("#navbar").removeClass("sticky");
-    }
-});
-
 
 $(function() {
  
