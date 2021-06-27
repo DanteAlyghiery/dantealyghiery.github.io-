@@ -10,6 +10,7 @@ html {
 
 a, a:hover {
     text-decoration: none;
+    color: gray;
 }
 body {
     font-family: "Montserrat";
@@ -61,7 +62,7 @@ body {
     display: block; 
     width: 100vw;
     height: 100vh;
-    background: url("../images/header/bg.png");
+    background: url("../../mrfresh/images/header/bg.png");
     background-size: contain;
 }
 .header {
@@ -217,15 +218,15 @@ li {
 }
 
 .btn-hero {
-    margin-top: 4%;
     color: white;
     font-size: 20px;
     text-align: center;
     border: #e6e949;
     border-radius: 40px;
-    width: 270px;
-    height: 80px;
-    background: #e6e949;
+    width: 170px;
+    height: 55px;
+    background: #a4b5d8;
+    border: 2px solid white;
     justify-content: center;
     text-align: center;
     position: relative;
@@ -236,6 +237,7 @@ li {
 }
 .btn-hero:hover {
     color:  #e6e949;
+    background-color: white;
     background: transparant;
 }
 .check-box {
@@ -426,9 +428,10 @@ label, a{ /*при наведении на стрелки или переклю�
 #active label{ /*стиль отдельного переключателя !!!!!!!!!!!!!!!!!*/
 	border-radius: 15px; /*скругление углов*/
 	display: inline-block; /*расположение в строку*/
-	width: 30px;
-	height: 30px;
-	background: rgb(75, 83, 240);
+	width: 20px;
+	height: 20px;
+	background: rgb(94, 100, 204);
+    
 }
 
 #active{ /*расположение блока с переключателями*/
@@ -501,13 +504,13 @@ label, a{ /*при наведении на стрелки или переклю�
     border-radius: 30px;
     overflow: hidden;
     border: none;
-
+    box-shadow:  -1em 0 .4em rgb(174, 174, 174);
 }
 .card-photo {
     object-fit: cover;
     width: 100%;
     height: auto;
-    opacity: 0.8;
+    opacity: 1;
    
 }
 
@@ -543,10 +546,11 @@ label, a{ /*при наведении на стрелки или переклю�
     padding: 0.6em 1.7em;
     border-radius: 60px;
     color: white;
-    background:  #ffe380d4;
+    background:  #efff83d4;
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: 400;
+    border: 1px solid white;
 }
 .btn-more:hover {
     background: white;
@@ -677,7 +681,9 @@ label, a{ /*при наведении на стрелки или переклю�
 
     align-self: center;
 }
-
+.phones-number {
+    margin-left: 10px;
+}
 
 .footter-text {
     display: flex;
@@ -765,7 +771,7 @@ label, a{ /*при наведении на стрелки или переклю�
 /*  Адаптив для планшетів */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
     .header__wr {
-        background: url('../images/header/for768.png');
+        background: url('../../mrfresh/images/header/for768.png');
         background-size: contain;
     }
     .title-block-dark {
@@ -850,6 +856,7 @@ label, a{ /*при наведении на стрелки или переклю�
     body._lock {
         overflow: hidden;
     }
+    
     .menu__body {
         opacity: 1;
         margin: 0 auto;
@@ -857,7 +864,7 @@ label, a{ /*при наведении на стрелки или переклю�
         position: fixed;
         top: 0;
         left: 0;
-        background: url('../images/header/Bg-open-Phones.png') ;
+        background: url('../../mrfresh/images/header/Bg-open-Phones.png') ;
         background-size: contain;
         width: 100%;
         height: 100%;
@@ -897,14 +904,16 @@ label, a{ /*при наведении на стрелки или переклю�
         padding: 0;
         width: 100vw !important;
         margin-bottom: 10%;
+        height: 100%;
     }
     .menu__link {
         display: flex;
         flex-direction: column;
-        height: 15vh;
+        height: 13vh;
         justify-content: space-around;
-        color: #000;
+        color: rgb(71, 71, 71);
         font-size: 25px;
+        padding-top: 70px;
     }
     .four {
         margin-top: 15%;
@@ -929,7 +938,7 @@ label, a{ /*при наведении на стрелки или переклю�
     }
     .aboutUS-blank {
         width: 100%;
-        background-image: linear-gradient(180deg, rgba(250, 249, 255, 1) 10%, rgba(250, 249, 255, 0.6)), url("../images/body/abotUS/pair_BG.png");
+        background-image: linear-gradient(180deg, rgba(250, 249, 255, 1) 10%, rgba(250, 249, 255, 0.6)), url("../../mrfresh/images/body/abotUS/pair_BG.png");
         background-size: cover;
     }
     .aboutUs-right {
@@ -1092,9 +1101,6 @@ label, a{ /*при наведении на стрелки или переклю�
         flex-direction: row;
         width: 100vw;
     }
-    .sub-tittle-hero {
-        display: none;
-    }
     .btn-hero {
         display: none;
     }
@@ -1198,7 +1204,7 @@ label, a{ /*при наведении на стрелки или переклю�
         position: fixed;
         top: 0;
         left: 0;
-        background: url('../images/header/Bg-open-Phones.png');
+        background: url('../../mrfresh/images/header/Bg-open-Phones.png');
         background-size: contain;
         width: 100%;
         height: 100%;
@@ -1327,7 +1333,7 @@ label, a{ /*при наведении на стрелки или переклю�
     .aboutUS-blank {
         width: 100%;
         height: fit-content;
-        background-image: linear-gradient(180deg, rgba(250, 249, 255, 1) 10%, rgba(250, 249, 255, 0.6)), url("../images/body/abotUS/pair_BG.png");
+        background-image: linear-gradient(180deg, rgba(250, 249, 255, 1) 10%, rgba(250, 249, 255, 0.6)), url("../../mrfresh/images/body/abotUS/pair_BG.png");
         background-size: cover;
 
     }
@@ -1345,7 +1351,6 @@ label, a{ /*при наведении на стрелки или переклю�
     .wrapper-slider {
         padding: 0;
         width: 100%;
-        height: 40em;
         align-items: start;
     }
     .content_left-wrapper {
@@ -1418,7 +1423,7 @@ label, a{ /*при наведении на стрелки или переклю�
     }
     .card {
         margin: 20px auto;
-        width: 250px;
+        width: 200px;
         height: 100%;
         display: flex !important;
     }
@@ -1427,10 +1432,10 @@ label, a{ /*при наведении на стрелки или переклю�
         height: 100%;
         width: 100% !important;
         background-size: cover !important;
-        background: url('../images/body/Production/bg__production-mobile.png') no-repeat;
+        background: url('../../mrfresh/images/body/Production/bg__production-mobile.png') no-repeat;
     }
     .card-photo {
-       width: 250px;
+       width: 200px;
     }
 
 
@@ -1479,7 +1484,7 @@ label, a{ /*при наведении на стрелки или переклю�
         background-size: cover;
     }
     .footter-logo {
-
+        width: 5% !important ;
         align-self: center !important;
        
     }
@@ -1487,6 +1492,7 @@ label, a{ /*при наведении на стрелки или переклю�
         width: 70px !important;
         align-self: center !important;
         height: 70px !important;
+        margin-right: 100px;
 
     }
     .footter-text {
